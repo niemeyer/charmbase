@@ -1,4 +1,4 @@
-from juju.framework import Object, Event, EventBase, EventsBase
+from oper.framework import Object, Event, EventBase, EventsBase
 
 
 class InstallEvent(EventBase):

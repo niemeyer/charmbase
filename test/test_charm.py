@@ -6,8 +6,8 @@ import shutil
 
 from pathlib import Path
 
-from juju.charm import CharmBase
-from juju.framework import Framework
+from oper.charm import CharmBase
+from oper.framework import Framework
 
 
 class TestCharm(unittest.TestCase):
